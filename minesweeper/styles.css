@@ -1,0 +1,54 @@
+body{
+    background-color: #746C6A;
+    color: white;
+}
+
+.header{
+    text-align: center;
+    margin: auto;
+    height: 15%;
+    width: 80%;
+    user-select: none;
+}
+
+.header .title{
+    margin: auto;
+    text-align: center;
+    height: 3rem;
+}
+
+.header h1 h2{
+    margin: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header .button{
+    width: 150px;
+}
+
+.menu{
+    display: flex;
+    margin: auto;
+    width: 30%;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.board{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row{
+    text-align: center;
+    display: inline-block;
+}
+
+.space{
+    user-select: none;
+}
